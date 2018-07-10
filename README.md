@@ -1,0 +1,1 @@
+### This app is a Server to listen for donations then tells the Arduino to run it's shocking script. 
