@@ -1,0 +1,24 @@
+{
+  "name": "shockserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "nodemon": "^1.18.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrisgolden77/ShockServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrisgolden77/ShockServer/issues"
+  },
+  "homepage": "https://github.com/Chrisgolden77/ShockServer#readme"
+}
