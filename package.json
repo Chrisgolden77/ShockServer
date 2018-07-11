@@ -6,9 +6,9 @@
   "dependencies": {
     "express": "^4.16.3",
     "http": "0.0.0",
-    "net": "^1.0.2",
     "nodemon": "^1.18.0",
-    "url": "^0.11.0"
+    "serialport": "^6.2.1",
+    "uniq": "^1.0.1"
   },
   "devDependencies": {},
   "scripts": {
@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/Chrisgolden77/ShockServer.git"
   },
-  "author": "",
+  "author": "Golden K",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Chrisgolden77/ShockServer/issues"
