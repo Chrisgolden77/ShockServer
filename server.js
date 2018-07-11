@@ -28,9 +28,11 @@ function updateDonations() {
     }
     let donations = JSON.parse(data);
     donations = donations.donations.filter(a => a.created_at > donationsTime[donationsTime.length - 1]).map(b => b.created_at);
+    console.log('last donatiosn time', donationsTime, '\nnew donations??', donations);
     if(donations.length > 0) {
             console.log('A new donation(s) has been made!');
             donationsTime = donations[donations.length -1];
+            console.log('latest donation time', donationsTime);
             shockTime();
     }
   });
